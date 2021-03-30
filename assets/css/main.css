@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #0000;
+
+   
+}
+
+/*para a imagem avançar, quando passado o mouse por cima*/
+
+.col-lg-4 img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+  /*legenda da imagem*/
+.col-lg-4 p { 
+
+	text-align: left;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size:large;
+	font-weight: bolder;
+	color: aliceblue;
+}
+/*barra de cima*/
+
+.navbar {
+	padding-right: 60px;
+	padding-left: 60px;
+	background-color: #2f4f4f;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+/*texto da barra de cima*/
+
+
+.navbar h2 , h4 {
+	text-transform: uppercase;
+	text-align: left;
+	color: aliceblue;
+
+}
+
+/* logo e texto da da barra do alto */
+	#imagemsite {
+		margin-bottom: 0px;
+		padding-top: 10px;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#imagemsite img
+	{
+		display: inline-block;
+		margin-bottom: 1em;
+		border-radius: 50%;
+		float: right;
+	}
+	
+
+/* alinhamentos */
+
+.menu {
+	
+	background-color:#808000; 
+
+	padding-right: 8%;
+	padding-left: 8%;
+
+}
+
+.col-lg-4{
+	display:inline-block;
+	width: 180px;
+	padding: 40px;
+}
+
+.col-lg-4 img{
+	width: 200px;
+	height: 262px;
+}
+
+.col-lg-4 p {
+    font-weight: lighter;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* rodapé */
+#footer {
+	background-color: #2f4f4f;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+
+}
+/* rodapé texto do rodapé */
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
